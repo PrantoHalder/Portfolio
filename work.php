@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+ <html>
+  <head> 
+   <title>
+     SHOVON WORK
+   </title>
+   <link rel="stylesheet" type="text/css" href="work.css">
+      </link>
+	  <link href='http://fonts.googleapis.com/css?family=montserrat:400,700%7CPT+serif:400,700,400 italic'> 
+	  </link>
+	  <link href="https://fonts.googleapis.com/css?family=mont[open+sans" rel="stylesheet">
+	  </link>
+  </head>
+  <body>
+    <div class="backgroungimage">
+	 <div class="menu">
+	 <div class="leftmenu">
+	 <h4>SHOVON</h4>
+	 </div>
+	 <div class="rightmenu">
+	 <ul>
+	<a href="home.php"><li>HOME</li></a> 
+     <a href="about.html"><li>ABOUT</li></a> 
+	 <a href="work.html"><li id="first">WORK</li></a> 
+	 <a href="contact.html"><li>CONTACT</li></a>
+	 <a href="skills.html"><li>Skills</li></a>
+	 </ul>
+	 </div>
+	 </div>
+	 <div class="text">
+	 <div>
+	     <ul>   <p id="p1">Study : </p>   
+		          <li id="i1">BSc in Computer Science & Engineering(Processing)</li>
+		 </ul>
+		 <ul>   <p id="p2">Work : </p>   
+		          <li id="i2">Teacher in Chemistry in A1 Science Area</li>
+		 </ul>
+	 <a href="www.facebook.com"><img src="pr-5.png" alt="facebook" height="40px" width="40px"></img></a>
+	   <a href="www.whatsapp.com"><img src="pr-6.jpg" alt="facebook" height="40px" width="40px"></img></a>
+	    <a href="www.gmail.com"><img src="pr-7.jpg" alt="facebook" height="40px" width="40px"></img></a>
+	 </div>
+	 </div>
+	 </div>
+  </body>
+ </html>

@@ -1,0 +1,189 @@
+*{
+	margin:0px;
+    padding:0px;
+}
+.backgroungimage
+{
+	background-image:url('pr.jpg');
+	background-size:100% 100%;
+	width:100%;
+	height:100vh;
+	
+}
+.menu
+{
+	width:100%;
+	height:100px;
+	background-color:rgba(0,0,0,0.3);
+}
+.leftmenu
+{
+	width:25%;
+	line-height:100px;
+	float:left;
+}
+.leftmenu h4
+{
+	
+	padding-left:70px;
+	font-weight:bold;
+	color:white;
+	font-size:22px;
+	font-family:montserrat,sans-serif;
+		display:inline-block;
+}
+.rightmenu
+{
+	width:70%;
+	height:100px;
+	float:right;
+}
+.rightmenu ul li
+{
+	margin-left:200px;
+}
+.rightmenu ul li
+{
+	font-family:'montserrat',sans-serif;
+	display:inline-block;
+	list-style:none;
+	font-size:15px;
+	color:white;
+	font-weight:bold;
+	line-height:100px;
+	margin-left:40px;
+	text-transform:uppercase;
+}
+#first
+{
+	color:orange;
+}
+.rightmenu ul li:hover
+{
+	color:orange;
+}
+.maw
+{
+  margin-top:10px;
+  position: absolute;
+  text-align:center;
+  background-color:rgba(0,0,0,0.1);
+  color:yellow;
+  right: 100px;
+  width: 400px;
+  border: 3px solid white;
+  padding:5px 20px;
+  font-size:20px;
+  margin:20px 10px;
+}
+.maw h3
+{
+	color:blue;
+}
+.maw li
+{
+	margin:15px 0;
+	color:black;
+}
+.bar
+{
+	background:gray;
+	display:block;
+	height:25px;
+	border-radius:5px;
+	overflow:hidden;
+	box-shadow: 0 0 10px #2187e7;
+}
+.bar span
+{
+	height:25px;
+	float:left;
+	background-color:yellow;
+	
+	
+}
+.C
+{
+	width:67%;
+	animation:C 2s;
+	
+}
+.CPP
+{
+	width:57%;
+	animation:CPP 2s;
+}
+.ASSEMBLY 
+{
+	width:45%;
+	animation:ASSEMBLY 2s;
+}
+.JAVA
+{
+	width:45%;
+	animation:JAVA 2s;
+}
+.HTML_CSS
+{
+	width:76%;
+	animation:HTML_CSS 2s;
+}
+.SQL
+{
+	width:37%;
+	animation:SQL 2s;
+}
+@keyframes C
+{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:67%;
+	}
+}
+@keyframes CPP
+{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:57%;
+	}
+}
+@keyframes ASSEMBLY
+{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:45%;
+	}
+}
+@keyframes JAVA
+{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:45%;
+	}
+}
+@keyframes HTML_CSS
+{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:76%;
+	}
+}
+@keyframes SQL
+{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:37%;
+	}
+}
